@@ -1,0 +1,102 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+}
+
+h1 span:nth-child(1) {
+    color: #4285F4;
+}
+
+h1 span:nth-child(2) {
+    color: #EB5144;
+}
+
+h1 span:nth-child(3) {
+    color: #FCC72E;
+}
+
+h1 span:nth-child(4) {
+    color: #4285F4;
+}
+
+h1 span:nth-child(5) {
+    color: #34A853;
+}
+
+h1 span:nth-child(6) {
+    color: #EB5144;
+}
+
+#search {
+    position: relative;
+}
+
+#input {
+    width: 561px;
+    height: 44px;
+    padding: 1px 87px 1px 52px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 32px;
+    outline: 0;
+    font-size: inherit;
+}
+
+#icon {
+    position: absolute;
+    padding: 0;
+    left: 20px;
+    top: 15px;
+    font-size: small;
+    color: #9aa0a6;
+}
+
+/* input 마우스 hover 상태 */
+#input:hover {
+    box-shadow: 4px 4px 5px rgba(222, 222, 221, 0.6);
+}
+
+#bottom {
+    display: block;
+    text-align: center;
+}
+
+#bottom button {
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    outline: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #202124;
+    font-size: 14px;
+}
+
+/* button 마우스 hover 상태 */
+#bottom button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
+}
